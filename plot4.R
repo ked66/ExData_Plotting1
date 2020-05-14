@@ -16,7 +16,7 @@ power <- power %>%
 png("plot4.png")
 
 ## Set Global Parameters
-par(mar = c(4.5, 4.5, 2, 2), mfrow = c(2, 2))
+par(mar = c(6.5, 4.5, 2, 2), mfrow = c(2, 2))
 
 ## Upper Left Plot
 with(power, plot(Time, Global_active_power, type = "l", 
